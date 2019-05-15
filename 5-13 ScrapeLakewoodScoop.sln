@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-13 ScrapeLakewoodScoop.web", "5-13 ScrapeLakewoodScoop.web\5-13 ScrapeLakewoodScoop.web.csproj", "{071065F8-DC94-4613-856A-ADB307EA0C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-13 ScrapeLakewoodScoop.api", "5-13 ScrapeLakewoodScoop.api\5-13 ScrapeLakewoodScoop.api.csproj", "{3279EC71-21B3-42C4-B8E1-54B5509FB2AF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{071065F8-DC94-4613-856A-ADB307EA0C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071065F8-DC94-4613-856A-ADB307EA0C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071065F8-DC94-4613-856A-ADB307EA0C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071065F8-DC94-4613-856A-ADB307EA0C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3279EC71-21B3-42C4-B8E1-54B5509FB2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3279EC71-21B3-42C4-B8E1-54B5509FB2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3279EC71-21B3-42C4-B8E1-54B5509FB2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3279EC71-21B3-42C4-B8E1-54B5509FB2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
